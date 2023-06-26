@@ -9,7 +9,6 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
-Plug 'hrsh7th/cmp-git'
 Plug 'hrsh7th/cmp-nvim-lua'
 Plug 'hrsh7th/cmp-emoji'
 Plug 'hrsh7th/cmp-copilot'
@@ -57,6 +56,8 @@ lua require('supertab_like_mapping')
 lua require('which-key').setup {}
 
 let g:github_dashboard = { 'username': $GITHUB_USER, 'password': $GITHUB_TOKEN }
+
+set mouse=a
 
 " Appearance
 colorscheme zenburn
